@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Join Mission Men's Commission community. Connect with district WhatsApp groups, access support, and be part of a movement for men's welfare.">
+  <title>Join Our Community | Mission Men's Commission</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- Font Awesome icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><circle cx='50' cy='50' r='40' fill='%231e90ff'/></svg>">
+</head>
+<body>
+  <a href="#main-content" class="skip-link" style="position: absolute; top: -40px; left: 0; background: #2c5f8d; color: white; padding: 8px; text-decoration: none; z-index: 100;">Skip to main content</a>
+
+  <header class="header">
+    <div class="header__container">
+      <a href="index.html" class="header__logo">Mission Men's Commission</a>
+      <button class="nav__toggle" aria-label="Toggle navigation menu">
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+        <span class="nav__toggle-bar"></span>
+      </button>
+      <nav class="nav">
+        <ul class="nav__list">
+          <li><a href="index.html" class="nav__link">Home</a></li>
+          <li><a href="about.html" class="nav__link">About Us</a></li>
+          <li><a href="focus-areas.html" class="nav__link">Focus Areas</a></li>
+          <li><a href="how-we-work.html" class="nav__link">How We Work</a></li>
+          <li><a href="join.html" class="nav__link nav__link--active">Join Us</a></li>
+          <li><a href="contact.html" class="nav__link">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main-content">
+    <section class="hero" style="min-height: 50vh;">
+      <div class="hero__container container">
+        <h1 class="hero__title">Join Our Community</h1>
+        <p class="hero__subtitle">
+          Be part of a movement building support for men across Kerala
+        </p>
+      </div>
+    </section>
+
+    <section class="section" id="join-options">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-header__subtitle">Get Connected</p>
+          <h2 class="section-header__title">Ways to Join</h2>
+          <p class="section-header__description">
+            Whether you need support or want to support others, there's a place for you
+          </p>
+        </div>
+
+        <div class="cards-grid">
+          <article class="card">
+            <div class="card__icon"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></div>
+            <h3 class="card__title">District WhatsApp Groups</h3>
+            <p class="card__description">
+              Join your local district WhatsApp group for immediate connection with men in your area. We have groups covering all 14 districts of Kerala for localized, relevant support.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon"><i class="fa-solid fa-globe" aria-hidden="true"></i></div>
+            <h3 class="card__title">Online Portal</h3>
+            <p class="card__description">
+              Register on our online portal to share concerns, access resources, and receive systematic follow-up from our dedicated team members.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon"><i class="fa-solid fa-graduation-cap" aria-hidden="true"></i></div>
+            <h3 class="card__title">Training & Workshops</h3>
+            <p class="card__description">
+              Participate in our regular training sessions, awareness programs, and knowledge-sharing workshops designed to empower and educate.
+            </p>
+          </article>
+
+          <article class="card">
+            <div class="card__icon"><i class="fa-solid fa-handshake" aria-hidden="true"></i></div>
+            <h3 class="card__title">Volunteer</h3>
+            <p class="card__description">
+              Support the mission by volunteering your time, skills, or expertise. Help us reach more men who need support and expand our impact.
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="registration-form">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-header__subtitle">Get Started</p>
+          <h2 class="section-header__title">Register Your Interest</h2>
+          <p class="section-header__description">
+            Fill out the form below and we'll connect you with the right resources
+          </p>
+        </div>
+
+        <form class="form" id="join-form">
+          <div class="form__success">
+            Thank you for your interest! We'll be in touch soon with next steps.
+          </div>
+
+          <div class="form__group">
+            <label for="name" class="form__label">Full Name *</label>
+            <input 
+              type="text" 
+              id="name" 
+              name="name" 
+              class="form__input" 
+              placeholder="Enter your full name"
+              required
+            >
+            <span class="form__error">Please enter your name</span>
+          </div>
+
+          <div class="form__group">
+            <label for="email" class="form__label">Email Address *</label>
+            <input 
+              type="email" 
+              id="email" 
+              name="email" 
+              class="form__input" 
+              placeholder="your.email@example.com"
+              required
+            >
+            <span class="form__error">Please enter a valid email address</span>
+          </div>
+
+          <div class="form__group">
+            <label for="phone" class="form__label">Phone Number</label>
+            <input 
+              type="tel" 
+              id="phone" 
+              name="phone" 
+              class="form__input" 
+              placeholder="+91 XXXXX XXXXX"
+            >
+            <span class="form__error">Please enter a valid phone number</span>
+          </div>
+
+          <div class="form__group">
+            <label for="district" class="form__label">District *</label>
+            <select id="district" name="district" class="form__input" required>
+              <option value="">Select your district</option>
+              <option value="Thiruvananthapuram">Thiruvananthapuram</option>
+              <option value="Kollam">Kollam</option>
+              <option value="Pathanamthitta">Pathanamthitta</option>
+              <option value="Alappuzha">Alappuzha</option>
+              <option value="Kottayam">Kottayam</option>
+              <option value="Idukki">Idukki</option>
+              <option value="Ernakulam">Ernakulam</option>
+              <option value="Thrissur">Thrissur</option>
+              <option value="Palakkad">Palakkad</option>
+              <option value="Malappuram">Malappuram</option>
+              <option value="Kozhikode">Kozhikode</option>
+              <option value="Wayanad">Wayanad</option>
+              <option value="Kannur">Kannur</option>
+              <option value="Kasaragod">Kasaragod</option>
+            </select>
+            <span class="form__error">Please select your district</span>
+          </div>
+
+          <div class="form__group">
+            <label for="interest" class="form__label">How would you like to participate? *</label>
+            <select id="interest" name="interest" class="form__input" required>
+              <option value="">Select an option</option>
+              <option value="seeking-support">Seeking support for personal challenges</option>
+              <option value="join-whatsapp">Join district WhatsApp group</option>
+              <option value="volunteer">Volunteer my time/skills</option>
+              <option value="professional">Offer professional services (legal/counseling/medical)</option>
+              <option value="stay-informed">Just want to stay informed</option>
+            </select>
+            <span class="form__error">Please select an option</span>
+          </div>
+
+          <div class="form__group">
+            <label for="message" class="form__label">Additional Information</label>
+            <textarea 
+              id="message" 
+              name="message" 
+              class="form__textarea" 
+              placeholder="Tell us more about your interest or how you'd like to contribute (optional)"
+              rows="4"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn--primary" style="width: 100%;">
+            <span class="btn__text">Submit Registration</span>
+          </button>
+        </form>
+      </div>
+    </section>
+
+    <section class="section" id="benefits">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-header__subtitle">Member Benefits</p>
+          <h2 class="section-header__title">What You'll Gain</h2>
+          <p class="section-header__description">
+            As a community member, you'll have access to valuable resources and support
+          </p>
+        </div>
+
+        <div class="features-grid">
+          <article class="feature">
+            <div class="feature__icon"><i class="fa-solid fa-bullseye" aria-hidden="true"></i></div>
+            <h3 class="feature__title">Expert Access</h3>
+            <p class="feature__description">
+              Direct connection to qualified legal, medical, and mental health professionals
+            </p>
+          </article>
+
+          <article class="feature">
+            <div class="feature__icon"><i class="fa-solid fa-users" aria-hidden="true"></i></div>
+            <h3 class="feature__title">Peer Support</h3>
+            <p class="feature__description">
+              Connect with men who understand your challenges and can offer practical advice
+            </p>
+          </article>
+
+          <article class="feature">
+            <div class="feature__icon"><i class="fa-solid fa-book" aria-hidden="true"></i></div>
+            <h3 class="feature__title">Resources</h3>
+            <p class="feature__description">
+              Access to workshops, training materials, and educational content
+            </p>
+          </article>
+
+          <article class="feature">
+            <div class="feature__icon"><i class="fa-solid fa-lock" aria-hidden="true"></i></div>
+            <h3 class="feature__title">Confidentiality</h3>
+            <p class="feature__description">
+              Safe, private environment where your identity and concerns are protected
+            </p>
+          </article>
+
+          <article class="feature">
+            <div class="feature__icon"><i class="fa-solid fa-bolt" aria-hidden="true"></i></div>
+            <h3 class="feature__title">Quick Response</h3>
+            <p class="feature__description">
+              Rapid assistance when you need it most, especially in urgent situations
+            </p>
+          </article>
+
+          <article class="feature">
+            <div class="feature__icon"><i class="fa-solid fa-seedling" aria-hidden="true"></i></div>
+            <h3 class="feature__title">Personal Growth</h3>
+            <p class="feature__description">
+              Opportunities for skill development, career advancement, and self-improvement
+            </p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section section--alt" id="testimonials">
+      <div class="container">
+        <div class="section-header">
+          <p class="section-header__subtitle">Member Stories</p>
+          <h2 class="section-header__title">You're Not Alone</h2>
+          <p class="section-header__description">
+            Remember: You don't have to face your struggles alone. There is no shame in asking for help. Mission Men's Commission stands with you.
+          </p>
+        </div>
+
+        <div style="max-width: 700px; margin: 2rem auto; padding: 2.5rem; background: linear-gradient(135deg, var(--primary-color), var(--primary-dark)); color: white; border-radius: 12px; text-align: center; box-shadow: var(--shadow-lg);">
+          <h3 style="font-size: 1.75rem; margin-bottom: 1rem; color: white;">Join Thousands of Men</h3>
+          <p style="font-size: 1.125rem; line-height: 1.8; margin-bottom: 1.5rem;">
+            Who have found support, understanding, and solutions through Mission Men's Commission. Together, we're building a society where every man has a voice and no one suffers in silence.
+          </p>
+          <a href="https://www.menscommissionkerala.com" class="btn btn--outline">
+            <span class="btn__text">Contact Us for Immediate Support</span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__container">
+        <div class="footer__section">
+          <h3>Mission Men's Commission</h3>
+          <p>Building a society where every man has a voice, and no one suffers in silence.</p>
+          <div class="social-links">
+            <a href="#" class="social-link" aria-label="Facebook"><i class="fa-brands fa-facebook-f" aria-hidden="true"></i></a>
+            <a href="#" class="social-link" aria-label="Twitter"><i class="fa-brands fa-twitter" aria-hidden="true"></i></a>
+            <a href="#" class="social-link" aria-label="Instagram"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+            <a href="#" class="social-link" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+          </div>
+        </div>
+        <div class="footer__section">
+          <h3>Quick Links</h3>
+          <ul class="footer__links">
+            <li><a href="index.html" class="footer__link">Home</a></li>
+            <li><a href="about.html" class="footer__link">About Us</a></li>
+            <li><a href="focus-areas.html" class="footer__link">Focus Areas</a></li>
+            <li><a href="how-we-work.html" class="footer__link">How We Work</a></li>
+          </ul>
+        </div>
+        <div class="footer__section">
+          <h3>Get Involved</h3>
+          <ul class="footer__links">
+            <li><a href="join.html" class="footer__link">Join Our Community</a></li>
+            <li><a href="contact.html" class="footer__link">Contact Us</a></li>
+            <li><a href="#" class="footer__link">Volunteer</a></li>
+            <li><a href="#" class="footer__link">Donate</a></li>
+          </ul>
+        </div>
+        <div class="footer__section">
+          <h3>Contact Info</h3>
+          <p><i class="fa-solid fa-envelope" aria-hidden="true"></i> Email: support@missionmen.org<br><i class="fa-solid fa-mobile" aria-hidden="true"></i> WhatsApp: +91 XXXX XXXXXX<br><i class="fa-solid fa-location-dot" aria-hidden="true"></i> Kerala, India</p>
+        </div>
+      </div>
+      <div class="footer__bottom">
+        <p>&copy; 2025 Mission Men's Commission. All rights reserved. | <a href="#" style="color: inherit;">Privacy Policy</a> | <a href="#" style="color: inherit;">Terms of Service</a></p>
+        <p style="margin-top:0.5rem;display: inline-flex;">Made with code and <img draggable="false" role="img" class="emoji" alt="💛" src="https://s.w.org/images/core/emoji/16.0.1/svg/1f49b.svg" width="10px"> by <a href="https://richinnovationsplc.com/" target="_blank" rel="noopener">Richinnovations</a></p>
+      </div>
+    </div>
+  </footer>
+
+  <button class="scroll-top" aria-label="Scroll to top"><i class="fa-solid fa-arrow-up" aria-hidden="true"></i></button>
+  <script src="assets/js/script.js"></script>
+</body>
+</html>
